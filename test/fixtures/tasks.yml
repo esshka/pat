@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: tasks
+#
+#  id         :integer          not null, primary key
+#  name       :string(255)
+#  done       :boolean
+#  project_id :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+finished:
+  id: 1
+  name: Easy task
+  done: true
+  project_id: 1
+unfinished:
+  id: 2
+  name: Hard task
+  project_id: 2
