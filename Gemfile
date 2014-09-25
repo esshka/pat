@@ -50,6 +50,10 @@ end
 # Bundle slim template engine
 gem 'slim-rails'
 
+group :production do 
+  gem 'pg'
+end
+
 gem 'thin'
 
 # Use ActiveModel has_secure_password
