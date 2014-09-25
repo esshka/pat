@@ -37,7 +37,6 @@ group :development do
   gem "binding_of_caller"
   gem 'sextant'
   gem 'quiet_assets'
-  gem 'thin'
   gem 'pry'
   gem 'meta_request'
   gem 'looksee'
@@ -50,6 +49,8 @@ end
 
 # Bundle slim template engine
 gem 'slim-rails'
+
+gem 'thin'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
